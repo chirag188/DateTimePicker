@@ -1,0 +1,37 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+.DatePicker{
+    display: inline-flex;
+    border: 1px solid tomato;
+}
+input[type="date"]{
+    border: none;
+    padding-left: 12px;
+    outline: none;
+    width: 100%;
+}
+.Dropdown-control{
+    border: none !important;
+    font-size: 14px !important;
+    /* padding: 8px 15px !important; */
+}
+/* .Dropdown-arrow{
+    display: none !important;
+} */
+.Dropdown-menu{
+    min-height: 200px;
+}
+.Dropdown-option.is-selected {
+    background-color: rgb(0, 190, 230) !important;
+}
+.Dropdown-option.is-selected:hover {
+    background-color: rgb(0, 190, 230) !important;
+}
+.Dropdown-option:hover{
+    background-color: lightblue !important;
+}
+.Dropdown-option{
+    text-align: center;
+}

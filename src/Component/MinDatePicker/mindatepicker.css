@@ -1,0 +1,80 @@
+::-webkit-scrollbar {
+  display: none;
+}
+.Calendar {
+  width: 280px;
+  height: 228px;
+}
+th {
+  width: 14%;
+  font-size: 18px;
+  font-family: sans-serif;
+  height: 28px;
+}
+td {
+  text-align: center;
+  width: 14%;
+  font-size: 16px;
+  font-family: sans-serif;
+  height: 28px;
+}
+td:hover {
+  background-color: rgba(0, 190, 230,0.4);
+  color: coral;
+}
+table {
+  width: 100%;
+}
+.header {
+  display: inline-flex;
+  width: 100%;
+  text-align: center;
+  height: 30px;
+  align-items: center;
+  font-weight: 750;
+  font-size: 24px;
+  margin: 5px 0px;
+}
+.calendar-image {
+  width: 15px;
+  margin: auto;
+}
+.CombineDropDown {
+  height: 228px;
+  display: inline-flex;
+  color: rgb(90, 84, 84);
+  z-index: 1000;
+}
+.hours {
+  overflow: auto;
+  width: 60px;
+}
+.selected {
+  background-color: rgb(0, 190, 230) !important;
+  color: whitesmoke !important;
+}
+.disabled{
+  color: gray;
+  pointer-events: none;
+}
+.minutes {
+  width: 60px;
+  overflow: auto;
+}
+.zone {
+  width: 50px;
+  overflow: auto;
+}
+.option {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 1px;
+  height: 32px;
+}
+.option:hover {
+  background-color: rgba(0, 190, 230,0.4);
+  color: coral;
+}
+.imgdisable{
+  opacity: 0.28;
+}
